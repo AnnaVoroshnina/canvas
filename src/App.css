@@ -1,0 +1,56 @@
+.canvas {
+    width: 100%;
+    background-color: lavender;
+    padding-bottom: 10px;
+    border: 1px solid cornflowerblue;
+}
+
+.toolbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    border-radius: 4px;
+}
+
+.navigate {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+select {
+    position: relative;
+    border: 1px solid cornflowerblue;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px 40px 5px 5px;
+    background-color: rgb(202, 211, 252);
+    height: 30px;
+}
+
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    height: 30px;
+    font-weight: 400;
+    font-family: inherit;
+    background-color: rgb(202, 211, 252);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
