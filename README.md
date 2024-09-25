@@ -10,3 +10,6 @@
 2. Язык - TypeScript 
 3. Инструмент для сборки - Vite 
 4. Библиотеки Konva.js и react-konva
+
+<h2>Ссылка на сайт</h2>
+https://canvas-rouge.vercel.app/
